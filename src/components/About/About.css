@@ -1,0 +1,124 @@
+.about_container{
+    padding: 1.5rem 2rem;
+    
+}
+.about_head{
+    text-align: center;
+
+    
+}
+.about_head h1{
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 800;
+}
+.about_head h5{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+}
+.line{
+    background-color: #eb770b;
+    color: #eb770b;
+    font-size: 1px;
+    width: 15rem;
+    margin: 0 auto;
+}
+.line2{
+    background-color: #03045e;
+    color: #03045e;
+    font-size: 7px;
+    width: 3rem;
+    margin: 0 auto;
+    margin-top: -1.5rem;
+    border-radius: 5px;
+}
+.card_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 2px rgba(59,43,43,0.75);
+
+}
+.img img{
+    width: 450px;
+    /* height: 0px; */
+    /* border: 4px solid #eb770b; */
+
+}
+.card{
+    padding: 20px;
+    width: 400px;
+
+}
+.card p{
+    margin-bottom: 5rem;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+}
+.card h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.card ul li{
+    margin-left: 20px;
+    line-height: 15px;
+    align-items: center;
+}
+.card ul li::marker{
+    color: #eb770b;
+    font-size: 30px;
+    /* margin-left: 10px; */
+}
+.cardBtnHireme{
+    padding: 15px 30px;
+    color:  #fff;
+    border: 1px solid #fff;
+    background-color: #03045e;
+    margin-left: 30px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+.cardBtnHireme:hover{
+    background-color: #eb770b;
+}
+.cardBtnResume{
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #eb770b;
+    border: none;
+    margin-left: 30px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+.cardBtnResume:hover{
+    background-color: #03045e;
+    border: 1px solid #fff;
+}
+
+@media screen and (max-width: 810px){
+    .img img{
+        display: none;
+    }
+    .card{
+        padding: 20px;
+        width: 100%;
+    
+    }
+    .card_container{
+        width: 90%;
+    }
+    .cardBtnHireme{
+        width: 100%;
+        margin: 5rem auto;
+    }
+    .cardBtnResume{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

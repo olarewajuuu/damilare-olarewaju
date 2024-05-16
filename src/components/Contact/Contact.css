@@ -1,0 +1,133 @@
+
+.form{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    background-color: #03045e;
+    /* margin-bottom: 5rem; */
+    padding: 5rem;
+    width: 90%;
+    margin: 0 auto 5rem auto ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(59,43,43,0.75);
+}
+.contact_body{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.form h2{
+    font-weight: 600;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: -20px;
+}
+.form hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.content-input{
+    background-color: #e4e3e3;
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    /* color: #6660; */
+    border-radius: 50px;
+}
+textarea{
+    background-color: #e4e3e3;
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    /* color: #6660; */
+    border-radius: 50px;
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.content-input:focus, textarea:focus{
+    border: 2px solid #ff994f;
+}
+.content-input::placeholder, textarea::placeholder{
+    color: #a9a9a9;
+}
+.form button{
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #ff994f, #fa6d86);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 810px){
+    .form{
+        flex-direction: column;
+        width: 80%;
+        gap: 5rem;
+    }
+    .content-input{
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding-left: 25px;
+        font-weight: 500;
+        /* color: #6660; */
+        border-radius: 50px;
+    }
+    textarea{
+        background-color: #e4e3e3;
+        width: 100%;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding-left: 25px;
+        font-weight: 500;
+        /* color: #6660; */
+        border-radius: 50px;
+        height: 140px;
+        padding-top: 15px;
+        border-radius: 20px;
+    }
+    .form h2{
+        text-align: center;
+    }
+    .form hr{
+        margin: 3rem auto;
+
+    }
+    .cols{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .content-input:focus, textarea:focus{
+        border: 2px solid #ff994f;
+    }
+    .content-input::placeholder, textarea::placeholder{
+        color: #a9a9a9;
+    }
+    .form button{
+        padding: 15px 30px;
+        font-size: 16px;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        background: linear-gradient(270deg, #ff994f, #fa6d86);
+        cursor: pointer;
+    }
+    
+}

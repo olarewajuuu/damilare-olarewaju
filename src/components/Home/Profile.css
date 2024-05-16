@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile-parent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 160px; */
+    background-color: #03045e;
+    padding: 50px 0;
+    color: #fff;
+}
+.profile-details{
+    text-align: center;
+
+}
+.cols a i{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.primary-text{
+    font-size: 26px;
+    font-weight: 600;
+}
+.highlight-text{
+    color: #eb770b;
+}
+.profile-role-tagline{
+    font-size: 16px;
+    margin-bottom: 56px;
+}
+.btnHireme{
+    padding: 15px 30px;
+    color:  #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    margin-left: 30px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+.btnHireme:hover{
+    background-color: #eb770b;
+}
+.btnResume{
+    padding: 15px 30px;
+    color: #fff;
+    background-color: #eb770b;
+    border: none;
+    margin-left: 30px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+.btnResume:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.profile-picture img{
+    width: 300px;
+    border: 4px solid #eb770b;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    padding: 2px;
+}
+.design{
+    width: 100%;
+    height: 15%;
+    /* border: none; */
+    background-color: #eb770b;
+    color: #eb770b;
+    /* border-bottom: 1px sold #eb770b; */
+}
+
+/* phone */
+@media screen and (max-width: 810px){
+    .profile-parent{
+        flex-direction: column-reverse;
+        margin: 40px 0 0 0;
+    }
+    .profile-picture img{
+        width: 150px;
+        margin-bottom: 50px;
+    }
+    .profile-role-tagline{
+        font-size: 12px;
+    }
+}
